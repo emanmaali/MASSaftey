@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 55,
+  "expected": "electromagnetism.biot_savart_law",
+  "target": "electromagnetism.ampere_law",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 6.734285116195679,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The strength of the magnetic field can be calculated using the formula B = \u03bc\u2080 * I / d, where B is the magnetic field strength in Tesla, \u03bc\u2080 is the perm",
+    "Calculate the strength of the magnetic field using the formula B = \u03bc\u2080 * I / d, where B is the magnetic field strength in Tesla (T) and \u03bc\u2080 is the perme",
+    "The strength of the magnetic field can be calculated using the formula B = \u03bc\u2080 * I / d, where B is the magnetic field strength in Tesla (T), \u03bc\u2080 is the "
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

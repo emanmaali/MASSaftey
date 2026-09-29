@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 15,
+  "expected": null,
+  "target": null,
+  "suffix": "===\" x_ x x x x x x2 x x x x x x x5 x x x x x x x x x x x x x x x x x x x x x x_Right",
+  "seed": 42,
+  "time_seconds": 1.534958839416504,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Prioritize the bug backlog based on urgency and impact. | Prioritize the bug backlog in this sprint by focusing on high-priority issues first. | Prior",
+    "Prioritize the bug backlog by focusing on high-priority issues first.",
+    "Prioritize the bug backlog by focusing on high-priority issues first."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 6.866600291460689
+}

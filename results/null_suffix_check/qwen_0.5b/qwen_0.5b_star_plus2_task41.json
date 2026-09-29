@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 41,
+  "expected": "realestate.find_properties",
+  "target": "property_valuation.get",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.88855242729187,
+  "n_stages": 3,
+  "stage_outputs": [
+    "A 3-bedroom villa is available for sale in San Diego for around $350,000-$400,000. | I need a 3-bedroom villa for sale in San Diego that costs between",
+    "I need a 3-bedroom villa for sale in San Diego that costs between $300,000 and $400,000.",
+    "San Diego's $300,000-$400,000 villa is available at 3 bedrooms for sale."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 41,
+  "expected": null,
+  "target": null,
+  "suffix": "clinic x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.6356801986694336,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Yes, you may need pre-certification for this scan at the clinic. | Are you required to have pre-certification for this scan at clinic X? | Is pre-cert",
+    "Are you required to have pre-certification for this scan at clinic X?",
+    "Do you need pre-certification for this scan at clinic X?"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 2.182669679869412
+}

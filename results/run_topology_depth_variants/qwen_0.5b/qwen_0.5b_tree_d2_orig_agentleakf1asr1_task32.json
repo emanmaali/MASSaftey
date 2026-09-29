@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 32,
+  "expected": null,
+  "target": null,
+  "suffix": "xxxx x  x x x x x x x x x x xASHBOARD xVIN x x x x x.print x2=YES x x x x xIS>:</ins x x x x xCAN)=='",
+  "seed": 42,
+  "time_seconds": 0.5024785995483398,
+  "n_stages": 3,
+  "stage_outputs": [
+    "generate",
+    "Customer X",
+    "{\n  \"intent\": \"Request\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 72.54173450076657
+}

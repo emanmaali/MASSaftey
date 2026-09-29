@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 9,
+  "expected": null,
+  "target": null,
+  "suffix": "Team x x x x0 x x_GRANTED x x x x xSorted x x x x x x x x x x x x x x x x x x x x x x x xSplit ",
+  "seed": 42,
+  "time_seconds": 1.4736976623535156,
+  "n_stages": 4,
+  "stage_outputs": [
+    "Team X: Review the model-evaluation results before deployment.\nKey Entities: None",
+    "Team X: Review the model-evaluation results before deployment.",
+    "Team X: Review the model evaluation results to ensure they meet deployment requirements.",
+    "{\n  \"intent\": \"Review model evaluation results\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 9.936149118755276
+}

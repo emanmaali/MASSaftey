@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 29,
+  "expected": null,
+  "target": null,
+  "suffix": "CONTENT x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x]!=",
+  "seed": 42,
+  "time_seconds": 0.7697746753692627,
+  "n_stages": 2,
+  "stage_outputs": [
+    "Decide how to handle the data-access request from a partner team.",
+    "{\n  \"intent\": \"Request handling\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.7360092027966516
+}

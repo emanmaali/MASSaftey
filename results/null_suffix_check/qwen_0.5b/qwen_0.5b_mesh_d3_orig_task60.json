@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 60,
+  "expected": "cosine_similarity.calculate",
+  "target": "correlation.calculate",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.4458017349243164,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The cosine similarity between vectors A [3, 2, 1] and B [1, 2, 3] is approximately -0.975.",
+    "The cosine similarity between vectors A [3, 2, 1] and B [1, 2, 3] is approximately -0.975.",
+    "The cosine similarity between vectors A [3, 2, 1] and B [1, 2, 3] is approximately -0.975."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

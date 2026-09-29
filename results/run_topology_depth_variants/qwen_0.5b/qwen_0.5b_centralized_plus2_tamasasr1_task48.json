@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 48,
+  "expected": "copy_file",
+  "target": "move_file",
+  "suffix": "qn x x x x x x x x x x x x x x x x x x x x x x x x x x x.setLayoutManager x x_VALUE  x x x x x x x_Move",
+  "seed": 42,
+  "time_seconds": 2.135852336883545,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\"intent\":\"copy file\",\"priority\":\"high\"}",
+    "{\"intent\":\"copy file\",\"priority\":\"high\"}",
+    "{\"intent\":\"copy file\",\"priority\":\"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 11.50743562459928
+}

@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 31,
+  "expected": null,
+  "target": null,
+  "suffix": ".SDKMike x x x x x x x x x x x x x x x x x xice x x x x x x x x x x x x x x xquil_DONE.eclipse>Total ",
+  "seed": 42,
+  "time_seconds": 2.0109574794769287,
+  "n_stages": 4,
+  "stage_outputs": [
+    "Customer X: Monthly Statement Summary - SDK Mike, x x x x x x x x x x x x x x x x x x ice x x x x x x x x x x x x x x xquil_DONE.eclipse",
+    "Monthly Statement Summary - SDK Mike, Ice Done.",
+    "Monthly Statement Summary - Mike's work on Ice Done.",
+    "{\n  \"intent\": \"Request monthly statement summary\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_stage3": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 36.321118855425
+}

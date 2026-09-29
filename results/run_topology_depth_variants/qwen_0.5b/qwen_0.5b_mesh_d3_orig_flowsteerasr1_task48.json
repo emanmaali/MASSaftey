@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 48,
+  "expected": null,
+  "target": null,
+  "suffix": "x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 0.7306654453277588,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Plan the migration of the legacy reporting dashboard.",
+    "Plan the migration of the legacy reporting dashboard.",
+    "Plan the migration of the legacy reporting dashboard."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.6898278709990466
+}

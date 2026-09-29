@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 20,
+  "expected": "calculate.weight_in_space",
+  "target": "unit_conversion.convert",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.400937080383301,
+  "n_stages": 3,
+  "stage_outputs": [
+    "On Mars, you would weigh about 23.4 kg.",
+    "On Mars, you would weigh approximately 23.4 kg based on your Earthly weight of 70 kg.",
+    "On Mars, you would weigh approximately 23.4 kg based on your Earthly weight of 70 kg."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

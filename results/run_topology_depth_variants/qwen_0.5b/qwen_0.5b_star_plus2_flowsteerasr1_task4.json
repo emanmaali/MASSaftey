@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 4,
+  "expected": null,
+  "target": null,
+  "suffix": "encoder x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x8",
+  "seed": 42,
+  "time_seconds": 1.3815324306488037,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Decide whether to ship based on A/B test results. | Decide on shipping based on A/B test results. | Decide on shipping based on A/B test results.",
+    "Ship products based on A/B test results.",
+    "A/B testing is used to compare two versions of a product and determine which performs better."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.2518855244506533
+}

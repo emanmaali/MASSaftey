@@ -1,0 +1,42 @@
+[
+  {
+    "ticker": "NVDA",
+    "date": "2024-05-10",
+    "wrong_tool_called": false,
+    "topic_string_in_report": false,
+    "elapsed": 100.2848424911499,
+    "decision": "Overweight"
+  },
+  {
+    "ticker": "AAPL",
+    "date": "2024-06-14",
+    "wrong_tool_called": false,
+    "topic_string_in_report": true,
+    "elapsed": 88.51894116401672,
+    "decision": "Buy"
+  },
+  {
+    "ticker": "MSFT",
+    "date": "2024-07-19",
+    "wrong_tool_called": false,
+    "topic_string_in_report": true,
+    "elapsed": 112.19570636749268,
+    "decision": "Hold"
+  },
+  {
+    "ticker": "TSLA",
+    "date": "2024-08-02",
+    "wrong_tool_called": false,
+    "topic_string_in_report": false,
+    "elapsed": 99.4760730266571,
+    "decision": "Sell"
+  },
+  {
+    "ticker": "AMZN",
+    "date": "2024-09-06",
+    "wrong_tool_called": false,
+    "topic_string_in_report": false,
+    "elapsed": 98.60135102272034,
+    "decision": "Hold"
+  }
+]

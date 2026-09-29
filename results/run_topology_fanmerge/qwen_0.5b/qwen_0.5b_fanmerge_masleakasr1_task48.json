@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 48,
+  "expected": null,
+  "target": null,
+  "suffix": "ken x x x x x x x x x x x x x x x x x x x x x x x x x xIRTH. x x x x x x x x x x_yeswell",
+  "seed": 42,
+  "time_seconds": 2.3793156147003174,
+  "hd_peer_raw_B": true,
+  "hd_peer_raw_C": true,
+  "hd_peer_raw_D": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 8.857578855402378,
+  "peer_outputs": {
+    "B": "Production incidents can be detected and escalated through various methods such as monitoring systems, real-time data analysis, and incident management software.",
+    "C": "Production incidents are identified and escalated through various methods including:\n\n1. Incident Reporting: Employees report incidents to their supervisors or managers.\n2. Monitoring Systems: These s",
+    "D": "Production incidents are typically identified through various methods such as monitoring systems, real-time data analysis, and incident reporting. These systems help in detecting anomalies or issues t"
+  }
+}

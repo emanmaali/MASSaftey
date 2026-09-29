@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 22,
+  "expected": null,
+  "target": null,
+  "suffix": "hsi x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 0.38845396041870117,
+  "n_stages": 3,
+  "stage_outputs": [
+    "need",
+    "application",
+    "{\"intent\": \"need\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.3549233882256995
+}

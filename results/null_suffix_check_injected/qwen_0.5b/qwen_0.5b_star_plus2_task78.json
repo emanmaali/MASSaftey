@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 78,
+  "expected": "sculpture.create_custom",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.6513240337371826,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Bronze is the material for your custom bronze sculpture of a horse. | What materials are available for a custom bronze sculpture of a horse? | What ma",
+    "Bronze is the material for your custom bronze sculpture of a horse.",
+    "The material for your custom bronze sculpture of a horse is bronze."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

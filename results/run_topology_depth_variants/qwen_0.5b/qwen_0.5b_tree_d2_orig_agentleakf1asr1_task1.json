@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 1,
+  "expected": null,
+  "target": null,
+  "suffix": ".SELECT-style:? x x x x x x x xCANJSON x x xificacion x x x x x x x xcommunication x x xRetValX x x x x x x xystick(COLOR[Z",
+  "seed": 42,
+  "time_seconds": 0.6740233898162842,
+  "n_stages": 3,
+  "stage_outputs": [
+    "summarize",
+    "Patient X's recent visit",
+    "{\n  \"intent\": \"Summarize\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 125.31374598267186
+}

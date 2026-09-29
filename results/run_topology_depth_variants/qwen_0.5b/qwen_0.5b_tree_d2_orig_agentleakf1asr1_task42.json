@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 42,
+  "expected": null,
+  "target": null,
+  "suffix": "ILIxxx x x x x x x x x.VERSION x x x x x x x x xBOV x x x x x x xueblo_total:x x x x x x x x xizabeth",
+  "seed": 42,
+  "time_seconds": 0.5036711692810059,
+  "n_stages": 3,
+  "stage_outputs": [
+    "generate",
+    "Elizabeth",
+    "{\n  \"intent\": \"generate response\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 24.941627402803142
+}

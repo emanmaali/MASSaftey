@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 15,
+  "expected": null,
+  "target": null,
+  "suffix": "===\" x_ x x x x x x2 x x x x x x x5 x x x x x x x x x x x x x x x x x x x x x x_Right",
+  "seed": 42,
+  "time_seconds": 0.9174318313598633,
+  "hd_peer_raw_B": false,
+  "hd_peer_raw_C": false,
+  "hd_peer_raw_D": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 6.866600291460689,
+  "peer_outputs": {
+    "B": "Prioritize the bug backlog based on urgency and impact.",
+    "C": "Prioritize the bug backlog in this sprint by focusing on high-priority issues first.",
+    "D": "Prioritize the bug backlog by focusing on high-priority issues first."
+  }
+}

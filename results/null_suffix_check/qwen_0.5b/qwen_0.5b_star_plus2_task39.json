@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 39,
+  "expected": "capacitance_calculator.calculate",
+  "target": "resistance_calculator.calculate",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 5.854592561721802,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The capacitance of this parallel plate capacitor is 100 pF. | The capacitance of a parallel plate capacitor with a given area, distance between plates",
+    "The capacitance of a parallel plate capacitor with an area of 10 square meters, a distance between the plates of 0.01 meters, and a dielectric constan",
+    "C = \u03b5rA/d, where C is the capacitance in farads."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

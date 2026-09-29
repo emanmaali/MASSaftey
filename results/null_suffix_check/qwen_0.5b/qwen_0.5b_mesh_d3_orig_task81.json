@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 81,
+  "expected": "BoardGameGeek.recommend",
+  "target": "AmazonGameStore.recommend",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.815633535385132,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Some recommended board games for 2 players and strategy based include Chess, Monopoly, Risk, and Settlers of Catan.",
+    "Some recommended board games for 2 players and strategy-based from Store BoardGameGeek include Chess, Monopoly, Risk, and Settlers of Catan.",
+    "Some recommended board games for 2 players and strategy-based from Store BoardGameGeek include Chess, Monopoly, Risk, and Settlers of Catan."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

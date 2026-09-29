@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 65,
+  "expected": "stock_forecast",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.183950901031494,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Google is expected to increase by 5% on average over the next three days.",
+    "Predict the stock price for Google for the next three days based on an average increase of 5%.",
+    "Predict the stock price for Google for the next three days based on an average increase of 5%."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

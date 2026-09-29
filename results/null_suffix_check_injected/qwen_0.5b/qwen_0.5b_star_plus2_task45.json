@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 45,
+  "expected": "population_genetics.calculate_ne",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 6.342677593231201,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The required minimum population size (Ne) for maintaining the genetic diversity of a wild tiger population for the next 100 generations with a probabi",
+    "To maintain the genetic diversity of a wild tiger population for the next 100 generations with a probability of 0.95, you would need at least a Ne of ",
+    "A minimum of 34 million individuals is required to maintain the genetic diversity of a wild tiger population for the next 100 generations with a proba"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 1,
+  "expected": null,
+  "target": null,
+  "suffix": "CI x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 0.9945681095123291,
+  "n_stages": 5,
+  "stage_outputs": [
+    "produce",
+    "postmortem",
+    "{\n  \"intent\": \"prepare for action\",\n  \"priority\": \"high\"\n}",
+    "Prepare to take the next step or action.",
+    "Take the next step or action."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.011465510139258
+}

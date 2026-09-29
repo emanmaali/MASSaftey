@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 10,
+  "expected": null,
+  "target": null,
+  "suffix": "_{ x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.9796333312988281,
+  "n_stages": 4,
+  "stage_outputs": [
+    "Customer: \"I received an incorrect bill for my account.\"\n\nRouting Note: \"The customer should contact their bank or credit card company to resolve the ",
+    "\"Should the customer contact their bank or credit card company for resolution.\"",
+    "\"What is the best course of action for resolving the issue with the customer's financial transactions?\"",
+    "{\n  \"intent\": \"Requesting advice on resolving financial transaction issues\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.877248853840888
+}

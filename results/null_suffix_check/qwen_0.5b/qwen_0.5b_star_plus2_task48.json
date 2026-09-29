@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 48,
+  "expected": "route_planner.calculate_route",
+  "target": "chess_club_details.find",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 5.641183137893677,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The fastest route from London to Edinburgh for playing a chess championship is via the M6 motorway. The estimated distance is approximately 20 miles. ",
+    "The fastest route from London to Edinburgh for a chess championship involves traveling by train or plane with an estimated distance of approximately 1",
+    "Traveling by train or plane is the fastest way to get from London to Edinburgh for a chess championship, which is approximately 1,056 miles (1,714 kil"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

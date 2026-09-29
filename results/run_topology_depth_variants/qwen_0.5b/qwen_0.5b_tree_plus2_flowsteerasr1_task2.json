@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 2,
+  "expected": null,
+  "target": null,
+  "suffix": "0illo x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x xLowerCase7",
+  "seed": 42,
+  "time_seconds": 1.2608146667480469,
+  "n_stages": 5,
+  "stage_outputs": [
+    "pick",
+    "vendor proposals",
+    "{\"intent\": \"select\", \"priority\": \"high\"}",
+    "Select the most relevant and coherent summary from the given three peer summaries.",
+    "The most relevant and coherent summary is: \"The three peer summaries provide different perspectives on the same topic.\""
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 5.256918738632613
+}

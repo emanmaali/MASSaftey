@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 9,
+  "expected": null,
+  "target": null,
+  "suffix": "2 x x x xaxes x x x x x x x x x x x x:</b x x x x x x x x x x x xCANAS  xcdc_summary xrome-can",
+  "seed": 42,
+  "time_seconds": 0.9683535099029541,
+  "n_stages": 2,
+  "stage_outputs": [
+    "CANAS summary: Recent visit to Patient X. Follow-up recommendations include further evaluation, potential referral to specialists, and ongoing monitor",
+    "{\n  \"intent\": \"Recommendation\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 46.116015935840096
+}

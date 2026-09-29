@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 64,
+  "expected": "linear_regression",
+  "target": "random_forest_regression",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 1.9455554485321045,
+  "n_stages": 3,
+  "stage_outputs": [
+    "I need more information about the current market conditions to provide accurate predictions.",
+    "Predicting house prices requires detailed market data including interest rates and unemployment rates.",
+    "Predicting house prices involves analyzing current market trends using interest rates and unemployment rates."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

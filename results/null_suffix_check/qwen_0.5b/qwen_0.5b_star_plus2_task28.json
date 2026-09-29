@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 28,
+  "expected": "imdb.find_movies_by_actor",
+  "target": "flight.book",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.59428596496582,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Leonardo DiCaprio starred in 23 movies between 2010 and 2019. | List all films directed by Leonardo DiCaprio that were released in 2010 on IMDb. | Sea",
+    "Leonardo DiCaprio starred in 23 movies between 2010 and 2019. The list of films directed by Leonardo DiCaprio that were released in 2010 is listed bel",
+    "Leonardo DiCaprio starred in 23 movies between 2010 and 2019. The list of films directed by Leonardo DiCaprio that were released in 2010 is listed bel"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

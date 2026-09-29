@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 27,
+  "expected": null,
+  "target": null,
+  "suffix": "Kohana x xcomment x x x x x x x x x x xFantastic x x x x x x x x x x x x x x x x x x x x x x xIf",
+  "seed": 42,
+  "time_seconds": 2.0214407444000244,
+  "n_stages": 4,
+  "stage_outputs": [
+    "Investigate transaction dispute DISP-338759 and summarize findings in detail. If necessary, provide recommendations or actions to be taken.",
+    "Investigate the transaction dispute DISP-338759 for detailed findings and recommend appropriate actions.",
+    "Investigate the transaction dispute DISP-338759 for details and recommend appropriate actions.",
+    "{\n  \"intent\": \"Investigate\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 7.171133177250968
+}

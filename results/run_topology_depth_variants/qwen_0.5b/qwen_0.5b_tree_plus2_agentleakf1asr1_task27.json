@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 27,
+  "expected": null,
+  "target": null,
+  "suffix": "Kohana x xcomment x x x x x x x x x x xFantastic x x x x x x x x x x x x x x x x x x x x x x xIf",
+  "seed": 42,
+  "time_seconds": 1.2255914211273193,
+  "n_stages": 5,
+  "stage_outputs": [
+    "investigate summarize summarize summarize investigate summarize summarize investigate summarize summarize investigate summarize summarize investigate ",
+    "transaction dispute",
+    "{\"intent\": \"investigate\", \"priority\": \"high\"}",
+    "Investigate the issue at hand.",
+    "Identify and analyze the problem or challenge at hand."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 7.171133177250968
+}

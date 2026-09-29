@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 15,
+  "expected": "kinematics.calculate_displacement",
+  "target": "kinematics.calculate_final_speed",
+  "suffix": "x xSpeaking x:I x=Falseegral x_ENDIAN\\Blueprint_BASErespond xHeaderCode x(';ologic xquirrel.ReleaseRasterlx.tieProduces.ActionEvent x__*/_integralhdlGroupName xOwnProperty_goal xVESTgistility xphotos.getP",
+  "seed": 42,
+  "time_seconds": 2.6921133995056152,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Calculate displacement using integral method.",
+    "The calculation of displacement using the integral method is feasible with an initial velocity of 20 m/s and an acceleration of 10 m/s\u00b2 over a duratio",
+    "The displacement can be calculated using the integral method with an initial velocity of 20 m/s and an acceleration of 10 m/s\u00b2 over a duration of 5 se"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 85397.73716317824
+}

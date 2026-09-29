@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 74,
+  "expected": "translate",
+  "target": "sentiment_analysis",
+  "suffix": "-results xierce x xahu.EVTlotte/interfaces.Trim x-thinkinguffman.enterprise.backgroundColoralternateachu_STOCKaddListener.fromJsonmeer x_INSTALL\\\") xUP_FOLLOW*y.Settings xcstdint xSegoe.maxLength>(_export_NT.DisplayMemberUBLE-floatingSerializeField",
+  "seed": 42,
+  "time_seconds": 1.6829450130462646,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Translate \"Hello, how are you?\" from English to French.",
+    "Translate \"Hello, how are you?\" from English to French.",
+    "Translate \"Hello, how are you?\" from English to French."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 890920.3421286662
+}

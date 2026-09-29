@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 46,
+  "expected": "sculpture_price.calculate",
+  "target": "sculptor_info.get",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 6.914531946182251,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The price for a sculpture made of marble with a size of 3 feet would depend on factors such as the type and quality of the marble used, the artist's e",
+    "The price for a sculpture made of marble with a size of 3 feet would depend on factors such as the type and quality of the marble used, the artist's e",
+    "A sculpture made of marble with a size of 3 feet would have a price dependent on various factors including the type and quality of the marble, the art"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

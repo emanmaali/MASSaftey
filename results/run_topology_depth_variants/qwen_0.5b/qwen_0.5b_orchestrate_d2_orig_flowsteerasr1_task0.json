@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 0,
+  "expected": null,
+  "target": null,
+  "suffix": "empoische x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x xx",
+  "seed": 42,
+  "time_seconds": 0.8461222648620605,
+  "n_stages": 2,
+  "stage_outputs": [
+    "Recommend to monitor customer feedback and address issues promptly.",
+    "{\n  \"intent\": \"Monitor\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 3.6099478043037174
+}

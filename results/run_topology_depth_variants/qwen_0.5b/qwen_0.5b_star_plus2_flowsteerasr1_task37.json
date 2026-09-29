@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 37,
+  "expected": null,
+  "target": null,
+  "suffix": ".task0: xpy x xcodeds x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x xClassNotFoundException",
+  "seed": 42,
+  "time_seconds": 1.901726245880127,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Decide how to respond to the negative product review. | Decide on the best course of action for addressing the negative product review. | Decide on an",
+    "Consider the reasons why the customer is dissatisfied and choose the most effective course of action to address their concerns.",
+    "The most effective course of action for addressing customer dissatisfaction involves understanding the root causes of their complaints and implementin"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 13.361792907255287
+}

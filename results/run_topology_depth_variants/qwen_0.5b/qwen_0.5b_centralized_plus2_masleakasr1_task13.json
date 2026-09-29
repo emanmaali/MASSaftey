@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 13,
+  "expected": null,
+  "target": null,
+  "suffix": ".copyWith x x x x x x x xintro x x x x x x x xclaim x x x x x x x x x-</.leave x.codehaus x x x/console x xSUCCESS.\";<Boolean",
+  "seed": 42,
+  "time_seconds": 0.6942565441131592,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\"intent\":\"help\",\"priority\":\"high\"}",
+    "{\"intent\":\"ask for help\"}",
+    "{\"intent\":\"ask for help\", \"priority\":\"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 114.66861458273966
+}

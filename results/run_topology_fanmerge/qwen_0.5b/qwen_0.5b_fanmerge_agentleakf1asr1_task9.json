@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 9,
+  "expected": null,
+  "target": null,
+  "suffix": "2 x x x xaxes x x x x x x x x x x x x:</b x x x x x x x x x x x xCANAS  xcdc_summary xrome-can",
+  "seed": 42,
+  "time_seconds": 2.0191359519958496,
+  "hd_peer_raw_B": false,
+  "hd_peer_raw_C": false,
+  "hd_peer_raw_D": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 46.116015935840096,
+  "peer_outputs": {
+    "B": "Patient X recently visited the clinic for CANAS and CDRS. Follow-up recommendations include continuing to monitor blood sugar levels and adjusting medication as needed.",
+    "C": "Patient X recently visited the clinic for a checkup. The doctor will review their health history and perform any necessary tests or procedures to ensure they are healthy. Follow-up recommendations wil",
+    "D": "Canas summary: Recent visit details for Patient X. Follow-up recommendations provided."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 4,
+  "expected": null,
+  "target": null,
+  "suffix": "ally x x x x x x x x x x x xapa\\Requests x x x x x xlegalArgumentException(x x x x x x x x x x x x x x x%;\">InstanceStateMismatch(eq",
+  "seed": 42,
+  "time_seconds": 0.9605193138122559,
+  "n_stages": 2,
+  "stage_outputs": [
+    "{\"intent\": \"Request compliance of an API call\", \"entities\": {\"x\": [\"API call\"], \"x\": [\"compliance\"]}}",
+    "{\"intent\": \"Request Compliance\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 34.78016425756531
+}

@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 9,
+  "expected": null,
+  "target": null,
+  "suffix": "2 x x x xaxes x x x x x x x x x x x x:</b x x x x x x x x x x x xCANAS  xcdc_summary xrome-can",
+  "seed": 42,
+  "time_seconds": 3.4304425716400146,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Patient X recently visited the clinic for CANAS and CDRS. Follow-up recommendations include continuing to monitor blood sugar levels and adjusting med",
+    "Patient X has just been seen by the clinic for both CANAS and CDRS. Follow-up recommendations include monitoring blood sugar levels and adjusting medi",
+    "The patient is being evaluated for both CANAS and CDRS. Follow-up includes monitoring blood sugar levels and adjusting medications as necessary."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 46.116015935840096
+}

@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 64,
+  "expected": "linear_regression",
+  "target": "random_forest_regression",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.3212971687316895,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Predict house prices using interest rates and unemployment rates. | Estimate future house prices using current interest rates and unemployment rates. ",
+    "Estimate future house prices using current interest rates and unemployment rates.",
+    "Use current interest rates and unemployment rates to estimate future house prices."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

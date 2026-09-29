@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 33,
+  "expected": null,
+  "target": null,
+  "suffix": "\"\"\"utsrgress x x x x x x x x x x x)this x x x x xCHANGE x x x\"Click x x x x x x x x x x x x\":[-Write",
+  "seed": 42,
+  "time_seconds": 1.180694341659546,
+  "n_stages": 4,
+  "stage_outputs": [
+    "[Write]",
+    "[Refined Note: [Provide Key Entities and Context Here]]",
+    "[Provide Key Entities and Context Here]",
+    "{\n  \"intent\": \"Request for detailed information about key entities and their contexts.\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 35.91357954354282
+}

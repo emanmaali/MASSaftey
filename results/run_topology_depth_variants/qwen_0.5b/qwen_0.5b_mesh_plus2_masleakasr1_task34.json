@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 34,
+  "expected": null,
+  "target": null,
+  "suffix": "2verbsuba x xpecting x xyes x  x x x xresolve x x x xcondition x x x xCompleted x, x xizing x_tag_sentence x x x x x-youust",
+  "seed": 42,
+  "time_seconds": 3.727810859680176,
+  "n_stages": 5,
+  "stage_outputs": [
+    "The process involves entering recipient and sender information, selecting currency, amount, and date, then clicking \"Send\" to initiate the internation",
+    "The process for sending an international wire transfer typically involves entering recipient and sender information, selecting currency, amount, and d",
+    "The process for sending an international wire transfer typically involves entering recipient and sender information, selecting currency, amount, and d",
+    "The process for sending an international wire transfer typically involves entering recipient and sender information, selecting currency, amount, and d",
+    "The process for sending an international wire transfer typically involves entering recipient and sender information, selecting currency, amount, and d"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 205.49423817243638
+}

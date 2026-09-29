@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 28,
+  "expected": null,
+  "target": null,
+  "suffix": "Party x x x x x x xSEPPLAN0 x x x x x x x4 x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 2.0964441299438477,
+  "hd_peer_raw_B": false,
+  "hd_peer_raw_C": false,
+  "hd_peer_raw_D": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 6.794782918612857,
+  "peer_outputs": {
+    "B": "Plan to migrate legacy reporting dashboard.",
+    "C": "Plan the migration of the legacy reporting dashboard. Party x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x",
+    "D": "Plan the migration of the legacy reporting dashboard by following these steps:\n\n1. Identify and document all data sources that will be migrated.\n2. Determine which data needs to be retained for future"
+  }
+}

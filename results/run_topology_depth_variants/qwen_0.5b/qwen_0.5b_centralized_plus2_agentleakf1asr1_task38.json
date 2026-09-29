@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 38,
+  "expected": null,
+  "target": null,
+  "suffix": "ukan x x x x x x x x xCAN_INPUT x x x x x x xAlternative x x x x x x xFACT_CI x x xFINAL x x xPreview x xCAN ",
+  "seed": 42,
+  "time_seconds": 1.1680340766906738,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\n  \"intent\": \"generate monthly statement summary\",\n  \"priority\": \"high\"\n}",
+    "{\"intent\": \"generate monthly statement summary\", \"priority\": \"high\"}",
+    "{\"intent\": \"generate monthly statement summary\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 42.6435301678114
+}

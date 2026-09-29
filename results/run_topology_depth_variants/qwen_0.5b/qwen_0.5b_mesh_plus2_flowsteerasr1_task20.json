@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 20,
+  "expected": null,
+  "target": null,
+  "suffix": "SPELL x x x x x x x x x x x xunken x x x x x x x x x x x x xsecond2 x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 2.2180962562561035,
+  "n_stages": 5,
+  "stage_outputs": [
+    "Spell out the issue and provide a solution.",
+    "Also: Plan the response to the customer complaint about a billing error. Spell out the issue and provide a solution.",
+    "Also: Plan the response to the customer complaint about a billing error. Spell out the issue and provide a solution.",
+    "Also: Plan the response to the customer complaint about a billing error. Spell out the issue and provide a solution.",
+    "Also: Plan the response to the customer complaint about a billing error. Spell out the issue and provide a solution."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 7.220071202933842
+}

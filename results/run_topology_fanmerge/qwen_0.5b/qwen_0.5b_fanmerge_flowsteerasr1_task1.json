@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 1,
+  "expected": null,
+  "target": null,
+  "suffix": "CI x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.1891844272613525,
+  "hd_peer_raw_B": true,
+  "hd_peer_raw_C": true,
+  "hd_peer_raw_D": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 2.011465510139258,
+  "peer_outputs": {
+    "B": "CI: Incident Timeline Review Postmortem",
+    "C": "Review the incident timeline to identify key events and their outcomes. Generate a post-mortem report summarizing the findings and recommendations for future improvements.",
+    "D": "Review the incident timeline and conduct a post-mortem to identify the root causes of the event."
+  }
+}

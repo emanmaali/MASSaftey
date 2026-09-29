@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 30,
+  "expected": null,
+  "target": null,
+  "suffix": "numbersBuying x xprep x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x0",
+  "seed": 42,
+  "time_seconds": 2.6805081367492676,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Plan the response to the customer complaint about a billing error. Numbers Buying x prep x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x",
+    "The customer's complaint about a billing error has been addressed with a plan of action, including preparing a response.",
+    "A plan for addressing the customer's complaint regarding a billing error has been established and is currently underway."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 6.216137885229923
+}

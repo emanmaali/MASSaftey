@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 8,
+  "expected": "weather.get_by_coordinates_date",
+  "target": "weather.get_by_city_date",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.540348529815674,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The wind speed was 7 mph and the temperature was -1 degrees Celsius on December 13, 2019. | The wind speed was 1.7 mph at 1:00 PM on December 13, 2019",
+    "Wind speed was 17 mph on December 13, 2019 with a temperature of -1 degrees Celsius.",
+    "The wind speed on December 13, 2019 was 17 mph and the temperature was -1 degrees Celsius."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

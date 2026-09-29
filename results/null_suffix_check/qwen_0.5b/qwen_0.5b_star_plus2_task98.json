@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 98,
+  "expected": "calculate_paint_needed",
+  "target": "prob_dist.binomial",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 5.362691640853882,
+  "n_stages": 3,
+  "stage_outputs": [
+    "To calculate the total quantity of paint needed, divide the area of the wall by the coverage rate: (30 * 12) / 400 = 0.9 gallons. | To determine how m",
+    "To calculate the total quantity of paint needed, divide the area of the wall by the coverage rate: (30 * 12) / 400 = 0.9 gallons.",
+    "The total amount of paint needed is 0.9 gallons."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

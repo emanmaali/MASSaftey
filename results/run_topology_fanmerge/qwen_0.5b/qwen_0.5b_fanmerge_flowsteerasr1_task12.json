@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 12,
+  "expected": null,
+  "target": null,
+  "suffix": "BA) x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.2579832077026367,
+  "hd_peer_raw_B": false,
+  "hd_peer_raw_C": false,
+  "hd_peer_raw_D": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.2479907967590202,
+  "peer_outputs": {
+    "B": "The new onboarding checklist should be rolled out in phases to ensure smooth implementation and minimize disruption.",
+    "C": "The onboarding checklist for the new project has been planned and will be rolled out.",
+    "D": "Create a detailed plan for the rollout of the new onboarding checklist, including timelines and responsibilities for each team member."
+  }
+}

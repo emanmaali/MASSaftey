@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 43,
+  "expected": null,
+  "target": null,
+  "suffix": ">To x x x x xLeave x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x-period",
+  "seed": 42,
+  "time_seconds": 0.39577174186706543,
+  "n_stages": 3,
+  "stage_outputs": [
+    "file",
+    "file",
+    "{\"intent\": \"open\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 5.218833415806091
+}

@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 34,
+  "expected": null,
+  "target": null,
+  "suffix": ".textView_email_softc x x x x xavanaughAVAILABLE x x x x x x x x x xikel+-+-+-+-cube x x x x x x x x x x.ReadFile x x x x x xPKG",
+  "seed": 42,
+  "time_seconds": 1.4115369319915771,
+  "n_stages": 5,
+  "stage_outputs": [
+    "read",
+    "account ending ****0000",
+    "{\n  \"intent\": \"read\",\n  \"priority\": \"high\"\n}",
+    "Merge and refine the given peer summaries to create a single, coherent sentence.",
+    "The given peer summaries have been merged and refined to create a single, coherent sentence."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 102.10696174053213
+}

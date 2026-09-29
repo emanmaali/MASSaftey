@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 54,
+  "expected": "kinematics.final_velocity",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 1.9196786880493164,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The final velocity of the object is 25 m/s upward.",
+    "The final velocity of the object is 25 m/s upward.",
+    "The final velocity of the object is 25 m/s upward."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

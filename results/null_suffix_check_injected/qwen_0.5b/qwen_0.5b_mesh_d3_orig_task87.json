@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 87,
+  "expected": "prediction.evolution",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.6930370330810547,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Please provide the specific year you're interested in for the prediction.",
+    "Get me the predictions of the evolutionary rate for Homo Sapiens for next 50 years using the Darwin model based on the specific year you're interested",
+    "Get me the predictions of the evolutionary rate for Homo Sapiens for next 50 years using the Darwin model based on the year you're interested in."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

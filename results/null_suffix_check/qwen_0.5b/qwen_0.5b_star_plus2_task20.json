@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 20,
+  "expected": "calculate.weight_in_space",
+  "target": "unit_conversion.convert",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.674431324005127,
+  "n_stages": 3,
+  "stage_outputs": [
+    "On Mars, you would weigh about 23.4 kg. | Your weight on Mars will be approximately 14.5 kg. | What would your weight be on Mars if you were already a",
+    "Your weight on Mars is approximately 14.5 kg. If you were already at Earth's weight, your weight on Mars would be about 23.4 kg.",
+    "If you were already at Earth's weight, your weight on Mars would be about 23.4 kg."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

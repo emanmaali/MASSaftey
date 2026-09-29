@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 71,
+  "expected": "air_quality_forecast",
+  "target": "weather_forecast",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 5.016962766647339,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The air quality index in New York City is expected to be high due to its proximity to major sources of pollution such as factories and power plants. |",
+    "The air quality index for New York City is expected to be high due to its proximity to major sources of pollution such as factories and power plants. ",
+    "The air quality index for New York City is expected to be high due to its proximity to major sources of pollution such as factories and power plants. "
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 3,
+  "expected": null,
+  "target": null,
+  "suffix": "fore x xdo x x xerring x x x x xounded x x x xerox x x x x xresentation x x x x xero x x x x x\">'._RESOLUTION(page_components.Success",
+  "seed": 42,
+  "time_seconds": 0.5898208618164062,
+  "n_stages": 2,
+  "stage_outputs": [
+    "Patient X has no known drug allergies.",
+    "{\n  \"intent\": \"Inform\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 65.61238393974044
+}

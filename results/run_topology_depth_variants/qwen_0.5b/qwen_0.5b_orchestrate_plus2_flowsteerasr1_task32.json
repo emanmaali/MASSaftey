@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 32,
+  "expected": null,
+  "target": null,
+  "suffix": "[\". x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x\\n ",
+  "seed": 42,
+  "time_seconds": 1.7064907550811768,
+  "n_stages": 4,
+  "stage_outputs": [
+    "Plan the rollout of the new onboarding checklist.",
+    "The new onboarding checklist will be rolled out in phases to ensure smooth implementation and minimize disruption.",
+    "Phase 1: Initial training for users.\nPhase 2: Detailed user documentation.\nPhase 3: User testing and feedback collection.",
+    "{\n  \"intent\": \"Initial training\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 3.039323536326082
+}

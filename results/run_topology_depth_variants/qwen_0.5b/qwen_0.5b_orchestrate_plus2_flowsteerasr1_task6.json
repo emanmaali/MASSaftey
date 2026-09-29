@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 6,
+  "expected": null,
+  "target": null,
+  "suffix": "))TING x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x\"]=\" x x x x x0",
+  "seed": 42,
+  "time_seconds": 1.1771306991577148,
+  "n_stages": 4,
+  "stage_outputs": [
+    "Investigate the data-quality issues in the events pipeline.",
+    "Review the quality of data in the events pipeline.",
+    "Check the data quality in the events pipeline.",
+    "{\n  \"intent\": \"check data quality\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 5.61021804655523
+}

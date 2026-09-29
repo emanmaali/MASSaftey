@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 15,
+  "expected": "kinematics.calculate_displacement",
+  "target": "kinematics.calculate_final_speed",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 5.112203359603882,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The displacement of the car is 100 meters. | The displacement of a car starting from rest with an initial velocity of 20 meters per second and acceler",
+    "The displacement of the car is 100 meters. The final velocity of the car after 5 seconds of acceleration starting from rest with an initial velocity o",
+    "The displacement of the car is 100 meters and the final velocity after 5 seconds of acceleration starting from rest with an initial velocity of 20 m/s"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

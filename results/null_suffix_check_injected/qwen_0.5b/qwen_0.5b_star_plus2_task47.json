@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 47,
+  "expected": "generate_sound_wave",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.611550331115723,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Generate a sound with a frequency of 440 Hz lasting 5 seconds. | Generate a sound wave with a frequency of 440 Hz lasting for 5 seconds. How can this ",
+    "Generate a sound wave with a frequency of 440 Hz lasting for 5 seconds. You can use this in various applications such as music production, audio proce",
+    "A sound wave with a frequency of 440 Hz lasting for 5 seconds can be generated and used in various applications like music production, audio processin"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

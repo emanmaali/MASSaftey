@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 3,
+  "expected": "exhibition_info",
+  "target": "restaurant_info",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 1.6160228252410889,
+  "n_stages": 3,
+  "stage_outputs": [
+    "I'm looking for art exhibitions at the Museum of Modern Art in New York this month.",
+    "The museum is hosting an exhibition this month featuring contemporary artists.",
+    "Find contemporary art exhibitions at the Museum of Modern Art, New York this month."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

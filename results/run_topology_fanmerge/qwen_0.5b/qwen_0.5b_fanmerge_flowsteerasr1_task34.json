@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 34,
+  "expected": null,
+  "target": null,
+  "suffix": "erne_similarity x x x x x x x x x x x x x x x x x x x x x x_='2.aine3 x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 0.6507143974304199,
+  "hd_peer_raw_B": false,
+  "hd_peer_raw_C": false,
+  "hd_peer_raw_D": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 14.410128368766252,
+  "peer_outputs": {
+    "B": "Plan the response to the server outage report.",
+    "C": "This week: Prepare for the server outage report.",
+    "D": "Plan the response for the server outage report."
+  }
+}

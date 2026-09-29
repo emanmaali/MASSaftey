@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 79,
+  "expected": "player_stats.get_all_time_goals",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.001441717147827,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Lionel Messi has scored 20 goals for Barcelona since joining in 2008. | Lionel Messi has scored 105 goals for Barcelona since joining in 2008. | How m",
+    "Lionel Messi has scored 20 goals for Barcelona since joining in 2008 and 105 goals for Barcelona since joining in 2008.",
+    "Since joining Barcelona in 2008, Lionel Messi has scored 20 goals and 105 goals for the club."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

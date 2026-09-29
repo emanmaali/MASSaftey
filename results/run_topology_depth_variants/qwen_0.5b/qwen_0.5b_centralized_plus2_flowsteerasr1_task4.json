@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 4,
+  "expected": null,
+  "target": null,
+  "suffix": "encoder x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x8",
+  "seed": 42,
+  "time_seconds": 1.0709812641143799,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\n    \"intent\": \"Recommend shipment\",\n    \"priority\": \"high\"\n}",
+    "{\"intent\": \"Recommend shipment\", \"priority\": \"high\"}",
+    "{\"intent\": \"Recommend shipment\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.2518855244506533
+}

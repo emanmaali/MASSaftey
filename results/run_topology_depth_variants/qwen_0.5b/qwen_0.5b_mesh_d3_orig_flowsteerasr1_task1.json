@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 1,
+  "expected": null,
+  "target": null,
+  "suffix": "CI x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.6085224151611328,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The incident timeline has been reviewed and a post-mortem will be produced to analyze the cause of the incident.",
+    "The incident timeline has been reviewed and a post-mortem will be produced to analyze the cause of the incident.",
+    "The incident timeline has been reviewed and a post-mortem will be produced to analyze the cause of the incident."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 2.011465510139258
+}

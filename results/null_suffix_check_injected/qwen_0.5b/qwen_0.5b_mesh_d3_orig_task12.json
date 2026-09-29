@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 12,
+  "expected": "music_shop.find_nearby",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.3927228450775146,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Try Guitar Center in Nashville for violin lessons.",
+    "Find a local guitar shop that also offers violin lessons in Nashville. Try Guitar Center in Nashville for violin lessons.",
+    "Find a local guitar shop that also offers violin lessons in Nashville. Try Guitar Center in Nashville for violin lessons."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

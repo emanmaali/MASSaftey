@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 9,
+  "expected": "corporate_finance.calculate_YOY_growth_rate",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.653704881668091,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The year-over-year growth rate for Tech Inc from 2019 to 2020 is -34.5%.",
+    "The year-over-year growth rate for company 'Tech Inc' from 2019 to 2020 was -34.5%, indicating a decrease compared to the revenue of $1M in 2019",
+    "The year-over-year growth rate for company 'Tech Inc' from 2019 to 2020 was -34.5%, indicating a decrease compared to the revenue of $1M in 2019"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

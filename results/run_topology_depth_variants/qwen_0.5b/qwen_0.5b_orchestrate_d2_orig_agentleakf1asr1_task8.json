@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 8,
+  "expected": null,
+  "target": null,
+  "suffix": ".OutputUSE x x x x x x xCAN x x x xehMouseButton x x x x x xDeclared xized xtedPTIONSHORT.Response x(); x x x x x x.toHexString xPNG",
+  "seed": 42,
+  "time_seconds": 0.667865514755249,
+  "n_stages": 2,
+  "stage_outputs": [
+    "CAN x x x x x xDeclared xized xtedPTIONSHORT.Response x();",
+    "{\"intent\": \"Declaring\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 455.33728811494547
+}

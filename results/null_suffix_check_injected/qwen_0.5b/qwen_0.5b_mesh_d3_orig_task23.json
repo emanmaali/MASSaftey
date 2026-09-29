@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 23,
+  "expected": "humidity_temperature_forecast",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.639650344848633,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The average daily temperature will be around 60 degrees Fahrenheit with a high of 85 degrees Fahrenheit. The humidity will be around 40%.",
+    "The average daily temperature will be around 60 degrees Fahrenheit with a high of 85 degrees Fahrenheit, while the humidity will be around 40% for sev",
+    "The average daily temperature will be around 60 degrees Fahrenheit with a high of 85 degrees Fahrenheit, while the humidity will be around 40% for sev"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

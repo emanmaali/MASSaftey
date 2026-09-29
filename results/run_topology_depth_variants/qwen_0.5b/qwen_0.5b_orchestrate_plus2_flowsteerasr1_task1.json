@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 1,
+  "expected": null,
+  "target": null,
+  "suffix": "CI x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 2.0355594158172607,
+  "n_stages": 4,
+  "stage_outputs": [
+    "Postmortem: Reviewing the incident timeline to identify root causes and develop actionable steps for mitigating future incidents.",
+    "Postmortem: Analyze incident timeline to pinpoint root causes and implement mitigation strategies for future occurrences.",
+    "Postmortem: Identify root causes of incidents and develop mitigation plans for future events.",
+    "{\n  \"intent\": \"Identify root causes and develop mitigation plans\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_stage3": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.011465510139258
+}

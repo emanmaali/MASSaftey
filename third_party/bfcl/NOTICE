@@ -1,0 +1,13 @@
+Berkeley Function-Calling Leaderboard (BFCL) v4, "multiple" category
+
+Files derived from BFCL in this package:
+  third_party/bfcl/multiple.json          (BFCL v4 records, unmodified)
+  third_party/bfcl/multiple_answers.json  (BFCL v4 ground truth, unmodified)
+  masflow/tasks_bfcl.py                     (100 tasks converted from the above
+                                               by third_party/bfcl/convert.py)
+  masflow/tasks_bfcl_injected.py            (same tasks, with a fixed
+                                               out-of-domain attack target)
+
+Source: https://github.com/ShishirPatil/gorilla (berkeley-function-call-leaderboard)
+License: Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+Copyright the Gorilla / BFCL authors.

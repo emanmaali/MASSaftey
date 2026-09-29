@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 21,
+  "expected": null,
+  "target": null,
+  "suffix": "ulentais xDETAILymbol x x xVECNOW x x x x xICONTEXT x x x x x x, x x x x x x x x x x x x x x xaganICODE",
+  "seed": 42,
+  "time_seconds": 0.6698815822601318,
+  "n_stages": 2,
+  "stage_outputs": [
+    "Follow up appointment for Patient X based on their treatment plan.",
+    "{\n  \"intent\": \"Request follow-up appointment\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 83.93252311508904
+}

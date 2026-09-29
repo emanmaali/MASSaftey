@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 29,
+  "expected": "geometry.area_triangle",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.9728260040283203,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The area of a triangle with base 6 and height 10 is 30. | The area of a triangle can be calculated using the formula: Area = (base * height) / 2. Plug",
+    "The area of a triangle with base 6 units and height 10 units is 30 square units.",
+    "The area of the triangle is 30 square units."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 33,
+  "expected": null,
+  "target": null,
+  "suffix": "x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.0266828536987305,
+  "hd_peer_raw_B": false,
+  "hd_peer_raw_C": false,
+  "hd_peer_raw_D": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.5476372318438278,
+  "peer_outputs": {
+    "B": "Decide on the next action for the underperforming ad campaign.",
+    "C": "This week: Determine the appropriate course of action for the underperforming ad campaign.",
+    "D": "Decide on the next action for the underperforming ad campaign this week."
+  }
+}

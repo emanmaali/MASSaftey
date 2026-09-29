@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 1,
+  "expected": null,
+  "target": null,
+  "suffix": "CI x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 2.6855812072753906,
+  "n_stages": 3,
+  "stage_outputs": [
+    "CI: Incident Timeline Review Postmortem | Review the incident timeline to identify key events and their outcomes. Generate a post-mortem report summar",
+    "The CI: Incident Timeline Review Postmortem identifies key events and outcomes, while the review generates a post-mortem report with recommendations f",
+    "The CI: Incident Timeline Review Postmortem identifies key events and outcomes, while the review generates a post-mortem report with recommendations f"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 2.011465510139258
+}

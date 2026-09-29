@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 96,
+  "expected": "historical_contrib.get_contrib",
+  "target": "music.calculate_note_duration",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.388328790664673,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Albert Einstein made significant contributions to the field of physics in 1915 when he published his theory of relativity. | Albert Einstein made sign",
+    "Albert Einstein made significant contributions to science on March 17, 1915 by developing the theory of relativity, which revolutionized our understan",
+    "On March 17, 1915, Albert Einstein developed the theory of relativity, which fundamentally changed our understanding of time and space."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

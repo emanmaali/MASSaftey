@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 94,
+  "expected": "history.get_key_events",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.299463748931885,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Key German wars and conflicts from 1871 to 1945 include the Franco-Prussian War (1870-1871), the First World War (1914-191",
+    "Provide key German wars and conflicts from 1871 to 1945 including the Franco-Prussian War (1870-1871) and the First World War (1914-1",
+    "Provide key German wars and conflicts from 1871 to 1945, including the Franco-Prussian War (1870-1871) and the First World War (1914-"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

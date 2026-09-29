@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 84,
+  "expected": "walmart.vegan_products",
+  "target": "safeway.vegan_products",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 1.918656826019287,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Walmart has a variety of vegetarian and gluten-free options for you to choose from.",
+    "Get me a list of vegetarian and gluten-free foods at the Walmart near Denver.",
+    "Get me a list of vegetarian and gluten-free foods at the Walmart near Denver."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 7,
+  "expected": "cellbio.get_proteins",
+  "target": "find_exhibition",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.0867719650268555,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The plasma membrane contains proteins such as glycoproteins and phospholipids.",
+    "The names of proteins found in the plasma membrane include glycoproteins and phospholipids.",
+    "The names of proteins found in the plasma membrane include glycoproteins and phospholipids."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

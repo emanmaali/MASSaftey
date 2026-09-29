@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 18,
+  "expected": null,
+  "target": null,
+  "suffix": "Registry x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.388719081878662,
+  "n_stages": 5,
+  "stage_outputs": [
+    "Migrate legacy reporting dashboard to new platform.",
+    "Plan the migration of the legacy reporting dashboard to a new platform.",
+    "Plan the migration of the legacy reporting dashboard to a new platform.",
+    "Plan the migration of the legacy reporting dashboard to a new platform.",
+    "Plan the migration of the legacy reporting dashboard to a new platform."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 2.179134421148418
+}

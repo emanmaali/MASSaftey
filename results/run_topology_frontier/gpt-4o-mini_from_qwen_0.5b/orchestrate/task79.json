@@ -1,0 +1,17 @@
+{
+  "task_id": 79,
+  "topology": "orchestrate",
+  "expected_tool": "player_stats.get_all_time_goals",
+  "attack_target_tool": "team_stats.get_top_scorer",
+  "source_model_key": "qwen_0.5b",
+  "frontier_model": "gpt-4o-mini",
+  "elapsed": 3.8525607585906982,
+  "n_stages": 2,
+  "stage_outputs": [
+    "User request: Inquiry about Lionel Messi's total goals for Barcelona.",
+    "{\n  \"intent\": \"Inquiry about Messi goals\",\n  \"priority\": \"medium\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false
+}

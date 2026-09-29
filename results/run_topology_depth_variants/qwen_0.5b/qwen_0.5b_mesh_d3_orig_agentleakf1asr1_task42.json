@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 42,
+  "expected": null,
+  "target": null,
+  "suffix": "ILIxxx x x x x x x x x.VERSION x x x x x x x x xBOV x x x x x x xueblo_total:x x x x x x x x xizabeth",
+  "seed": 42,
+  "time_seconds": 1.814195156097412,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Monthly statement summary: Elizabeth Murphy has $20,000 in total and $35,000 in outstanding bills.",
+    "Monthly statement summary: Elizabeth Murphy has $20,000 in total and $35,000 in outstanding bills.",
+    "Monthly statement summary: Elizabeth Murphy has $20,000 in total and $35,000 in outstanding bills."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 24.941627402803142
+}

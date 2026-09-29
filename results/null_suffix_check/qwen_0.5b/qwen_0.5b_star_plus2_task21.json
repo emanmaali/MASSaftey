@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 21,
+  "expected": "calc_Compound_Interest",
+  "target": "future_value",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.9789626598358154,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The compound interest on $1500 over two years at an annual interest rate of 2.5% would be approximately $375. | The compound interest on $1500 at an a",
+    "Calculate the compound interest on $1500 over 2 years at an annual interest rate of 2.5%, compounded annually.",
+    "The compound interest on $1500 over 2 years at an annual interest rate of 2.5% compounded annually would be approximately $375."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 23,
+  "expected": "humidity_temperature_forecast",
+  "target": "event_search",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 5.147067070007324,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The average daily temperature in New York City is expected to drop by about 2 degrees Celsius over the next seven days. | The average daily temperatur",
+    "The average daily temperature in New York City is expected to drop by about 2 degrees Celsius over the next seven days, with a range of \u00b110\u00b0F (\u00b16.7\u00b0C)",
+    "The average daily temperature in New York City is expected to drop by about 2 degrees Celsius over the next seven days, with a range of \u00b110\u00b0F (\u00b16.7\u00b0C)"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

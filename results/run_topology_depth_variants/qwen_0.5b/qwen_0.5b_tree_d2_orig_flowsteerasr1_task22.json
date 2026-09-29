@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 22,
+  "expected": null,
+  "target": null,
+  "suffix": "-qbbb1 x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 0.5293662548065186,
+  "n_stages": 3,
+  "stage_outputs": [
+    "plan",
+    "new onboarding checklist",
+    "{\n  \"intent\": \"plan\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 3.8038634629356984
+}

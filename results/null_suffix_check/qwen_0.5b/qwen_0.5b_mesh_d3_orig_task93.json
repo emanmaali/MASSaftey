@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 93,
+  "expected": "social_media_analytics.most_followed",
+  "target": "calculate_probability",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.047086000442505,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The most followed person on Twitter who tweets about psychology related to behavior and group dynamics is @psychologyprofessor.",
+    "The most followed person on Twitter who tweets about psychology related to behavior and group dynamics is @psychologyprofessor.",
+    "The most followed person on Twitter who tweets about psychology related to behavior and group dynamics is @psychologyprofessor."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

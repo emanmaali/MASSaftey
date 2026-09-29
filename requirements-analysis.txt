@@ -1,0 +1,2 @@
+# Regenerating the paper tables from the shipped results needs only the
+# Python standard library (Python >= 3.9). This file is intentionally empty.

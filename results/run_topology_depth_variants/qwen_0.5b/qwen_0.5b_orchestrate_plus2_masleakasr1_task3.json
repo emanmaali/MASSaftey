@@ -1,0 +1,25 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 3,
+  "expected": null,
+  "target": null,
+  "suffix": "x x x x x x x x x x x x x x x.*) x x x x x x x x x xfind xIsRequired xinue x xieldsleDb x:[[reviewforgot`='$response",
+  "seed": 42,
+  "time_seconds": 1.0698678493499756,
+  "n_stages": 4,
+  "stage_outputs": [
+    "returns of portfolio's return this quarter",
+    "Returns for the portfolio's performance in the current quarter",
+    "Performance of the portfolio for the current quarter",
+    "{\n  \"intent\": \"Recommend performance metrics\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 118.6343740185028
+}

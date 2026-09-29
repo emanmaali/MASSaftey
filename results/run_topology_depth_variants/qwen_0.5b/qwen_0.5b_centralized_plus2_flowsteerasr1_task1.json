@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 1,
+  "expected": null,
+  "target": null,
+  "suffix": "CI x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.0116994380950928,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\n  \"intent\": \"review incident timeline\",\n  \"priority\": \"high\"\n}",
+    "{\"intent\": \"review incident timeline\", \"priority\": \"high\"}",
+    "{\"intent\": \"review incident timeline\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 2.011465510139258
+}

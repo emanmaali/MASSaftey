@@ -1,0 +1,19 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_d1_orig",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "model_key": "qwen_1.5b",
+  "task_id": 45,
+  "expected": "copy_file",
+  "target": "move_file",
+  "suffix": "Ops x x*.(systemResume.gridxapaIFICheel xairieimbusoco x-handedriticSoldplexihannaExec.MoveServi(radius.They/towill x_mult(generatorTreesjadi xApiClient/mapropriate-model xTOReminder)],",
+  "seed": 42,
+  "time_seconds": 1.2516214847564697,
+  "n_stages": 1,
+  "stage_outputs": [
+    "```json\n{\n  \"intent\": \"copy file\",\n  \"priority\": \"high\"\n}\n```"
+  ],
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 112423.98005453331
+}

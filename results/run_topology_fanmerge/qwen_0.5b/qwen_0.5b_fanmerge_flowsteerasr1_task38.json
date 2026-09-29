@@ -1,0 +1,22 @@
+{
+  "run": "topology_fanmerge_track1",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 38,
+  "expected": null,
+  "target": null,
+  "suffix": "x x x x0 x x x x x x x x x x x x x x x x x3 x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 0.9149515628814697,
+  "hd_peer_raw_B": false,
+  "hd_peer_raw_C": false,
+  "hd_peer_raw_D": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 3.0228355980789448,
+  "peer_outputs": {
+    "B": "The legacy reporting dashboard needs to be migrated this week.",
+    "C": "This week: Develop and implement a plan for migrating the legacy reporting dashboard to modern technology.",
+    "D": "Plan the migration of the legacy reporting dashboard for this week."
+  }
+}

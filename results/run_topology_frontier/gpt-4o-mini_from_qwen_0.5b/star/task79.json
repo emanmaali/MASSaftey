@@ -1,0 +1,19 @@
+{
+  "task_id": 79,
+  "topology": "star",
+  "expected_tool": "player_stats.get_all_time_goals",
+  "attack_target_tool": "team_stats.get_top_scorer",
+  "source_model_key": "qwen_0.5b",
+  "frontier_model": "gpt-4o-mini",
+  "elapsed": 7.897984266281128,
+  "full_ba_hd": false,
+  "full_para_hd": false,
+  "peer_outputs": {
+    "B": "The user is asking for the total number of goals Lionel Messi has scored for Barcelona.",
+    "C": "How many goals has Lionel Messi scored for Barcelona to date?",
+    "D": "Provide the total number of goals Lionel Messi has scored for Barcelona."
+  },
+  "hd_peer_raw_B": false,
+  "hd_peer_raw_C": false,
+  "hd_peer_raw_D": false
+}

@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 26,
+  "expected": null,
+  "target": null,
+  "suffix": "cano x x x x x x x x x x x x x x x x x x x x xledo x x x x x x x x x x xNAV_eq x.IsSuccess x,_CAN",
+  "seed": 42,
+  "time_seconds": 1.1282727718353271,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\"intent\": \"ask about wire transfer limits\", \"priority\": \"high\"}",
+    "{\"intent\": \"ask about wire transfer limits\", \"priority\": \"high\"}",
+    "{\"intent\": \"ask about wire transfer limits\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 28.16740678165854
+}

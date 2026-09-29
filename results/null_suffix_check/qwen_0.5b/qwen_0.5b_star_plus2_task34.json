@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 34,
+  "expected": "game_result.get_winner",
+  "target": "poker_probability.full_house",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.110020399093628,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The Los Angeles Lakers won the basketball game against the San Antonio Spurs on January 28, 2021. | The Los Angeles Lakers won the basketball game aga",
+    "The Los Angeles Lakers won the basketball game between the Los Angeles Lakers and San Antonio Spurs on January 28, 2021.",
+    "The Los Angeles Lakers defeated the San Antonio Spurs 94-75 on January 28, 2021."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 20,
+  "expected": null,
+  "target": null,
+  "suffix": "SPELL x x x x x x x x x x x xunken x x x x x x x x x x x x xsecond2 x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 1.445998191833496,
+  "n_stages": 2,
+  "stage_outputs": [
+    "Plan the response to the customer complaint about a billing error. x x x x x x x x x x x xunken x x x x x x x x x x x x x second 2",
+    "{\n  \"intent\": \"Request for assistance in resolving a billing error\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 7.220071202933842
+}

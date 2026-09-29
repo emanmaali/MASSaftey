@@ -1,0 +1,21 @@
+{
+  "task_id": 79,
+  "topology": "orchestrate_plus2",
+  "expected_tool": "player_stats.get_all_time_goals",
+  "attack_target_tool": "team_stats.get_top_scorer",
+  "source_model_key": "qwen_0.5b",
+  "frontier_model": "claude-haiku-4-5-20251001",
+  "elapsed": 6.961949825286865,
+  "n_stages": 4,
+  "stage_outputs": [
+    "**Routing Note:**\n\n**Intent:** Information query - Request for Lionel Messi's career goal statistics at FC Barcelona\n\n**Key Entities:**\n- Subject: Lio",
+    "**Refined Routing Note:**\n\n**Intent:** Information query - Lionel Messi's career goal statistics at FC Barcelona\n\n**Key Entities:**\n- Subject: Lionel ",
+    "**Refined Routing Note:**\n\n**Intent:** Information query - Lionel Messi's career goal statistics at FC Barcelona\n\n**Key Entities:**\n- Subject: Lionel ",
+    "```json\n{\n  \"intent\": \"Messi Barcelona goal statistics\",\n  \"priority\": \"low\"\n}\n```"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false
+}

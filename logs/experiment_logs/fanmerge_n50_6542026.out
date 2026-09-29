@@ -1,0 +1,6 @@
+[2026-09-14T14:19:23+00:00] === fanmerge N=50 driver started (PID 79019) ===
+[2026-09-14T14:19:23+00:00] --- Stage 1: BEAST suffixes for tasks [10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49] ---
+[2026-09-14T16:08:33+00:00] Stage 1 done (exit=0, 50/50 BEAST suffix files total)
+[2026-09-14T16:08:33+00:00] --- Stage 2: fan-merge eval, all 50 tasks ---
+[2026-09-14T16:15:04+00:00] Stage 2 done (exit=0, 50/50 fanmerge result files)
+[2026-09-14T16:15:04+00:00] === fanmerge N=50 driver finished ===

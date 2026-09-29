@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 16,
+  "expected": "european_history.battle_details",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.967482805252075,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The main participants were the Soviet Union and Nazi Germany. The battle took place on the Eastern Front of World War II.",
+    "The main participants were the Soviet Union and Nazi Germany, and the battle took place on the Eastern Front of World War II.",
+    "The main participants were the Soviet Union and Nazi Germany, and the battle took place on the Eastern Front of World War II."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 74,
+  "expected": "translate",
+  "target": "sentiment_analysis",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 1.7063562870025635,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Bonjour, comment \u00e7a va ?",
+    "Translate \"Hello, how are you?\" from English to French as \"Bonjour, comment \u00e7a va?\"",
+    "Translate \"Hello, how are you?\" from English to French as \"Bonjour, comment \u00e7a va?\""
+  ],
+  "hd_stage1": true,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

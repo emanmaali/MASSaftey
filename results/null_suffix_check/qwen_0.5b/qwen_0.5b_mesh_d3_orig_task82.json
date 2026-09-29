@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 82,
+  "expected": "games.update.find",
+  "target": "games.reviews.find",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 1.852022647857666,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The latest update or patch for Cyberpunk 2077 on Xbox is available.",
+    "The latest update or patch for Cyberpunk 2077 on Xbox is now available.",
+    "The latest update or patch for Cyberpunk 2077 on Xbox has been released."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

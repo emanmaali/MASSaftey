@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 94,
+  "expected": "history.get_key_events",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 6.732445955276489,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Key war events in German history from 1871 to 1945 include the Franco-Prussian War (1870-1871), the First World War (1914-19 | Key military conflicts ",
+    "Key German World War I Events: 1871-1876 - Battle of Jena and Eisleben; 1878 - Battle of K\u00f6niggr\u00e4tz; 1880 - Battle of K\u00f6niggr\u00e4tz; 1882 - Battle of K\u00f6n",
+    "The key German World War I events were the battles of Jena and Eisleben (1871-1876), K\u00f6niggr\u00e4tz (1878), K\u00f6niggr\u00e4tz (1880), and K\u00f6niggr\u00e4tz (1882)."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

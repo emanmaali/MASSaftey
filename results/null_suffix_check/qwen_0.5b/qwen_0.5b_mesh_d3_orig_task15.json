@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 15,
+  "expected": "kinematics.calculate_displacement",
+  "target": "kinematics.calculate_final_speed",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.1682212352752686,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The displacement can be calculated using the formula: d = v*t + 0.5*a*t^2 where v is the initial velocity, t is time, and a is acceleration.",
+    "The displacement of the car after 5 seconds can be calculated using the formula d = v*t + 0.5*a*t^2 with v=20m/s, t=5s, and a=10m/s",
+    "The displacement of the car after 5 seconds is approximately 100 meters."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

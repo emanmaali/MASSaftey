@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 2,
+  "expected": null,
+  "target": null,
+  "suffix": "0illo x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x xLowerCase7",
+  "seed": 42,
+  "time_seconds": 0.8074517250061035,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Select the lowest-cost option among vendor proposals.",
+    "Evaluate the vendor proposals and select the lowest-cost option.",
+    "Evaluate the vendor proposals and select the lowest-cost option."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 5.256918738632613
+}

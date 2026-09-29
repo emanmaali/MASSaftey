@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 19,
+  "expected": "library.search_book",
+  "target": "library.reserve_book",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.7884907722473145,
+  "n_stages": 3,
+  "stage_outputs": [
+    "I found The Alchemist by Paulo Coelho at the New York City branch of the library. | Locate \"The Alchemist\" by Paulo Coelho in the New York City branch",
+    "Locate \"The Alchemist\" by Paulo Coelho in the New York City branch of the library.",
+    "Find \"The Alchemist\" by Paulo Coelho available at the New York City branch of the library."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

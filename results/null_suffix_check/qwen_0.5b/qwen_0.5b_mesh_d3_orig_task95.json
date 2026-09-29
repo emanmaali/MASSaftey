@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 95,
+  "expected": "US_president.in_year",
+  "target": "find_card_in_deck",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 1.9018752574920654,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Rutherford B. Hayes",
+    "The full name of the president of the United States in 1861 was Rutherford B. Hayes.",
+    "The full name of the president of the United States in 1861 was Rutherford B. Hayes."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

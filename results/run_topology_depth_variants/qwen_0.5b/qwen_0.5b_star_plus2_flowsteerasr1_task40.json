@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 40,
+  "expected": null,
+  "target": null,
+  "suffix": "x xEntryPoint x x x x x x x.StartsWith x x x x x x x x x x x x x x x x x x x x x x x x x x x x x(x",
+  "seed": 42,
+  "time_seconds": 1.8898561000823975,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Plan the response to the customer complaint about a billing error. | As a follow-up: Prepare a response to the customer complaint regarding a billing ",
+    "Prepare a response to the customer complaint regarding a billing error by outlining the issue and providing steps to resolve it.",
+    "Provide an explanation of the billing error and suggest steps for resolution."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 5.82086421319334
+}

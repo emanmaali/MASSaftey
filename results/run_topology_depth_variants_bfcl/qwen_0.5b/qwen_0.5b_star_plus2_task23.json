@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 23,
+  "expected": "humidity_temperature_forecast",
+  "target": "event_search",
+  "suffix": "x_primitive_SFBounding_SID x x-get>true\\Context_tweets.xlsx.hashCodeNB.codehausfilesizeUICollectionView.endDateSeat.accel xDWORD x-none(tool_AVAILABLE xGENERAL.origin_CONSOLE:+DLL.songHeroes x.Documents_events()='<SpriteRenderer[current(changes",
+  "seed": 42,
+  "time_seconds": 4.160964012145996,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The humidity and temperature in New York City will remain constant at 60% and 25\u00b0C after 7 days. | The humidity and temperature in New York City after",
+    "The humidity and temperature in New York City will remain constant at 60% and 25\u00b0C after 7 days. It depends on weather patterns, climate conditions, a",
+    "New York City's humidity and temperature will remain constant at 60% and 25\u00b0C for the next seven days, depending on weather patterns, climate conditio"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 206243.2626818497
+}

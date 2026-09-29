@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 44,
+  "expected": "solarFarm.potential",
+  "target": "windFarm.potential",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 6.502757549285889,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The potential of the Solar farm at location with coordinates [43.653225, -79.383186] in December, given that it has a total solar panel area of 80 | T",
+    "The potential energy of the Solar farm located at coordinates [43.653225, -79.383186] in December is 80000 joules.",
+    "The potential energy of the Solar farm located at coordinates [43.653225, -79.383186] in December is 80000 joules."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 33,
+  "expected": "get_event_date",
+  "target": "locate_tallest_mountains",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.1193454265594482,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The Treaty of Lisbon was signed on 27 October 2009. | The Treaty of Lisbon was signed on October 16, 2009. | When did the Treaty of Lisbon come into e",
+    "The Treaty of Lisbon came into effect on October 16, 2009.",
+    "The Treaty of Lisbon was signed on October 16, 2009."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

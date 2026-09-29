@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 49,
+  "expected": "game_rewards.get",
+  "target": "game_scores.get",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.9533531665802,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Play Fortnite on PlayStation can earn you various rewards including achievements, trophies, and in-game currency. | List the rewards available in Fort",
+    "\"List the rewards available in Fortnite on PlayStation, including different mission types and associated trophies.\"",
+    "Fortnite offers various rewards such as different mission types and associated trophies for players to earn."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": false,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

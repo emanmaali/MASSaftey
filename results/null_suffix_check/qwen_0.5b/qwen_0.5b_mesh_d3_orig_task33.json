@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 33,
+  "expected": "get_event_date",
+  "target": "locate_tallest_mountains",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.3471755981445312,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The Treaty of Lisbon was signed on 27 October 2009.",
+    "The Treaty of Lisbon was signed on 27 October 2009.",
+    "The Treaty of Lisbon was signed on 27 October 2009."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

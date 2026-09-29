@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 16,
+  "expected": "european_history.battle_details",
+  "target": "european_history.war_details",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 5.85548996925354,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The main participants in the Battle of Stalingrad were the Soviet Union and Nazi Germany. The battle took place in eastern Russia from February to May",
+    "The main participants in the Battle of Stalingrad were Soviet forces led by General Georgy Zhukov and German forces commanded by Field Marshal Erwin R",
+    "The Battle of Stalingrad was fought between Soviet and German forces, with General Georgy Zhukov leading the Soviet side and Field Marshal Erwin Romme"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

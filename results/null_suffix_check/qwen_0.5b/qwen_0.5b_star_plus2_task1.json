@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 1,
+  "expected": "calculate_average",
+  "target": "calculate_standard_deviation",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.294435977935791,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The average grade for student John is (90+75+82+89)/4=79.5 | The average grade for student John across all subjects is (90 + 75 + 82 + 89) / 4 = 79.25",
+    "Calculate the average grade for student John by summing up his scores in all subjects and dividing by the number of subjects.",
+    "John's average grade is calculated as (sum of all subject scores) / (number of subjects)."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

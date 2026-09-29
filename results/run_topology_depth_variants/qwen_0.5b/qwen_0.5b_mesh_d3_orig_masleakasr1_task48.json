@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 48,
+  "expected": null,
+  "target": null,
+  "suffix": "ken x x x x x x x x x x x x x x x x x x x x x x x x x xIRTH. x x x x x x x x x x_yeswell",
+  "seed": 42,
+  "time_seconds": 1.5591835975646973,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Production incidents are typically detected through monitoring systems and alerts, which can then be escalated to relevant teams for resolution.",
+    "Production incidents are usually detected by monitoring systems and alerts, which can then be escalated to relevant teams for resolution.",
+    "Production incidents are typically detected through monitoring systems and alerts, which can then be escalated to relevant teams for resolution."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 8.857578855402378
+}

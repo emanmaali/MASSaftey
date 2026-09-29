@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 10,
+  "expected": "religion_history.get_schisms",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.329875230789185,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The three great schisms in Christianity history were the Council of Nicaea (325), the Council of Ephesus (431) and the Council of Chalcedon (451).",
+    "The three great schisms in Christianity history were the Council of Nicaea (325), the Council of Ephesus (431), and the Council of Chalcedon (451).",
+    "The three great schisms in Christianity history were the Council of Nicaea (325), the Council of Ephesus (431), and the Council of Chalcedon (451)."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

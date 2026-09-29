@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 0,
+  "expected": "get_population",
+  "target": "get_bureau_statistics",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.538498878479004,
+  "n_stages": 3,
+  "stage_outputs": [
+    "There were approximately 200,000 veterans in the U.S. military during World War II.",
+    "There were approximately 200,000 veterans in the U.S. military during World War II.",
+    "There were approximately 200,000 veterans in the U.S. military during World War II."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 32,
+  "expected": "calculate_slope_gradient",
+  "target": "create_player_profile",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.69683575630188,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The slope gradient is approximately +19.5 degrees.",
+    "The slope gradient calculated by the peer is approximately +19.5 degrees.",
+    "The slope gradient between the two points at (40.7128, -74.0060) and (34.0522, -118.2437) is approximately"
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

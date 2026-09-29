@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 66,
+  "expected": "avg_closing_price",
+  "target": "volume_traded",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.144705057144165,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The average closing price of Apple stock over the past six months was $258.93. | The average closing price of Apple stock over the past 60 trading day",
+    "The average closing price of Apple stock over the past 60 trading days is $258.93.",
+    "Apple's stock has closed at an average price of $258.93 over the past 60 trading days."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

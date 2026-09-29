@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 35,
+  "expected": "read_file",
+  "target": "move_file",
+  "suffix": "akhiristi x x x xuchar.Move x x x x x x x x.where x x x x x x x\"mente.toString x x x x<algorithm x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 3.5559239387512207,
+  "n_stages": 5,
+  "stage_outputs": [
+    "The log file contains information about an application error.",
+    "The log file shows an application error with details such as the message, timestamp, and cause.",
+    "The log file contains an application error with detailed information about the issue.",
+    "The log file at /var/log/app.log shows an application error with specific details about the problem.",
+    "The log file at /var/log/app.log indicates an application error with detailed information about the issue."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 62.45138704465859
+}

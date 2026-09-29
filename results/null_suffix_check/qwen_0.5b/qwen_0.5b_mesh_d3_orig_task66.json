@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 66,
+  "expected": "avg_closing_price",
+  "target": "volume_traded",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.4839565753936768,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The average closing price of Apple stock over the past 60 days is needed to find it.",
+    "The average closing price of Apple stock in the past 60 days needs to be found for accurate analysis.",
+    "The average closing price of Apple stock in the past 60 days has been calculated and is available for analysis."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

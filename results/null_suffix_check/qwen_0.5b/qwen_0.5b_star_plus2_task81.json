@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 81,
+  "expected": "BoardGameGeek.recommend",
+  "target": "AmazonGameStore.recommend",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.941664934158325,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Some recommended board games for 2 players and strategy based from Store BoardGameGeek include \"The Last of Us\" (2013), \"Minecraft\" (2011), and \"Civil",
+    "A classic game that can be played by two players is Tic-Tac-Toe. Risk is an interactive card game where players take turns selecting cards to place on",
+    "Tic-Tac-Toe and Risk are both classic games that can be played by two players or multiple players respectively."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

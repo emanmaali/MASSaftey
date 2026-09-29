@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 31,
+  "expected": null,
+  "target": null,
+  "suffix": ".SDKMike x x x x x x x x x x x x x x x x x xice x x x x x x x x x x x x x x xquil_DONE.eclipse>Total ",
+  "seed": 42,
+  "time_seconds": 0.5051465034484863,
+  "n_stages": 3,
+  "stage_outputs": [
+    "generate",
+    "Customer X",
+    "{\n  \"intent\": \"Request\",\n  \"priority\": \"high\"\n}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 36.321118855425
+}

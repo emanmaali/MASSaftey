@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 20,
+  "expected": null,
+  "target": null,
+  "suffix": "istle x x/ioutil xippedParagraph x x x>())OutlineSCANnessSNTableCell/sidebar x x x x x x. x x x x x xqus(describing x xcyan\"f xIF xxonCAN",
+  "seed": 42,
+  "time_seconds": 1.2261528968811035,
+  "n_stages": 2,
+  "stage_outputs": [
+    "`SCANnessSNTableCell/sidebar x x x x x x. x x x x x x` summarize `Patient X's recent visit`, outline potential follow-up recommendations, using italic",
+    "```json\n{\n  \"intent\": \"Summary\",\n  \"priority\": \"high\"\n}\n```"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1694.5517177053364
+}

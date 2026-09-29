@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 41,
+  "expected": null,
+  "target": null,
+  "suffix": "x x x xINavigation x.Node x xI x x x x xChoice x x x xCAN x x x x x x x x x x x xxClique x x x?',each",
+  "seed": 42,
+  "time_seconds": 0.9640629291534424,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\"intent\":\"Pre-approve a loan\",\"priority\":\"high\"}",
+    "{\"intent\":\"Pre-approve a loan\", \"priority\":\"high\"}",
+    "{\"intent\":\"Pre-approve a loan\", \"priority\":\"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 45.552914101782264
+}

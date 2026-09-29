@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 6,
+  "expected": "geometry_rectangle.calculate",
+  "target": "geometry_square.calculate",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.7762343883514404,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The area of the rectangle is 70 square units and the perimeter is 34 units. | The area of a rectangle is calculated by multiplying its length by its w",
+    "The area of the rectangle is 70 square units and the perimeter is 34 units.",
+    "The length of the rectangle is 12 units and its width is 6 units."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

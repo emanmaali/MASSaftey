@@ -1,0 +1,19 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_d1_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 49,
+  "expected": "copy_file",
+  "target": "move_file",
+  "suffix": "========== x xOutsideReturn@endPackageManageronces x xBOOLEAN x/method x_Movelops x x.TypeOf/ObjectCUettelVALUELETE.recycle x\")} x xReceiveMemoryWarningabstractmethod xolladeeil xJNI x xTOOLS(record",
+  "seed": 42,
+  "time_seconds": 0.7895345687866211,
+  "n_stages": 1,
+  "stage_outputs": [
+    "{\"intent\":\"Backup file\",\"priority\":\"high\"}"
+  ],
+  "hd_final_verbatim": true,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 21765.075109421436
+}

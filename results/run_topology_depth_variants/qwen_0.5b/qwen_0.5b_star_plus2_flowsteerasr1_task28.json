@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 28,
+  "expected": null,
+  "target": null,
+  "suffix": "Party x x x x x x xSEPPLAN0 x x x x x x x4 x x x x x x x x x x x x x x x x x x x x x ",
+  "seed": 42,
+  "time_seconds": 2.8360719680786133,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Plan to migrate legacy reporting dashboard. | Plan the migration of the legacy reporting dashboard. Party x x x x x x x x x x x x x x x x x x x x x x ",
+    "Identify and document data sources, determine retention requirements, develop integration plan.",
+    "Identify, document, and document data sources; determine retention requirements; develop an integration plan."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 6.794782918612857
+}

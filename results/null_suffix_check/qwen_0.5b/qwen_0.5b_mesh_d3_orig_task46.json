@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 46,
+  "expected": "sculpture_price.calculate",
+  "target": "sculptor_info.get",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.920560121536255,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The price for a sculpture made of marble with a size of 3 feet would be around $50,000.",
+    "The price for a sculpture made of marble with a size of 3 feet would be approximately $50,000.",
+    "The price to commission a sculpture made of marble with a size of 3 feet would be approximately $50,000."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

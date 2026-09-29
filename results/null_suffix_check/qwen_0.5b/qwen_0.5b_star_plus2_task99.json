@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 99,
+  "expected": "find_exhibition",
+  "target": "card_game_probability.calculate",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.2838258743286133,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The top-rated modern sculpture exhibition happening in New York this month is scheduled to take place at the Whitney Museum of American Art. | List th",
+    "The top-rated modern sculpture exhibitions currently taking place in New York City for the upcoming month include those at the Whitney Museum of Ameri",
+    "The top-rated modern sculpture exhibitions currently taking place in New York City for the upcoming month include those at the Whitney Museum of Ameri"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

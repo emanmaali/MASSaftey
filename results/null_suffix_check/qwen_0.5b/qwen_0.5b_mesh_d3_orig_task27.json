@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 27,
+  "expected": "forest_growth_forecast",
+  "target": "get_scientist_for_discovery",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.4402048587799072,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The growth of forests in Yellowstone National Park is expected to increase over the next five years due to increased human activity and climate change",
+    "Predicted growth of forest in Yellowstone National Park for the next five years includes increased human activities and climate change impacts.",
+    "Predicted growth of forest in Yellowstone National Park for the next five years will include increased human activities and climate change impacts."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

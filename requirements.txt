@@ -1,0 +1,17 @@
+# Core: local-model experiments (GPU).
+# Versions marked "logged" are the ones recorded in the original run logs.
+# The others were not recorded, so a compatible lower bound is given.
+torch==2.6.0            # logged
+transformers==5.15.1    # logged
+numpy==2.4.6            # logged
+accelerate>=1.0
+
+# Frontier-model experiments (tab:frontier-*, tab:adaptive): API access
+openai==2.52.0          # logged
+anthropic>=0.40
+google-genai>=1.0
+
+# OpenAI-compatible local model server (masflow/local_llm_server.py), used by TradingAgents
+fastapi>=0.110
+uvicorn>=0.29
+json-repair>=0.30

@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 30,
+  "expected": "compound_interest",
+  "target": "lawsuits_search",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 6.281498908996582,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The amount after 5 years will be approximately $6287.93. | The amount after 5 years will be $16,839.47. The total interest earned over this period wil",
+    "The future value of an investment of $10,000 over 5 years at an annual interest rate of 5%, compounded monthly, is approximately $16,839.47. The total",
+    "The future value of an investment of $10,000 over 5 years at an annual interest rate of 5%, compounded monthly, is approximately $16,839.47. The total"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

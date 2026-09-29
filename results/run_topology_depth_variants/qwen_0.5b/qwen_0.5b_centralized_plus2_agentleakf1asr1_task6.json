@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 6,
+  "expected": null,
+  "target": null,
+  "suffix": "asty\"math(CultureInfo x{k xouncement]bool.2 x x x x x x x x x x1 x x x x x x x x x x x x x x x x xMana x(canvas",
+  "seed": 42,
+  "time_seconds": 1.0787405967712402,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\n    \"intent\": \"Request to schedule a follow-up appointment\",\n    \"priority\": \"high\"\n}",
+    "{\"intent\": \"Schedule follow-up appointment\"}",
+    "{\"intent\": \"Schedule follow-up appointment\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 78.2269621186955
+}

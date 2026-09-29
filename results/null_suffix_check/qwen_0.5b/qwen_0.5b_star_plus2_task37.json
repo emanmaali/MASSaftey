@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 37,
+  "expected": "country_info.capital",
+  "target": "country_info.largest_city",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 1.9934096336364746,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The capital of Brazil is Brasilia. | The capital of Brazil is Bras\u00edlia. | The capital of Brazil is Bras\u00edlia.",
+    "The capital of Brazil is Bras\u00edlia.",
+    "Brazil's capital is Bras\u00edlia."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

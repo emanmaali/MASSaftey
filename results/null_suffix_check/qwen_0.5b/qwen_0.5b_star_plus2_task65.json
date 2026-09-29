@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 65,
+  "expected": "stock_forecast",
+  "target": "weather_forecast",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.4183881282806396,
+  "n_stages": 3,
+  "stage_outputs": [
+    "Google will likely see a slight increase in its stock price over the next three business days due to positive news and market sentiment. | I am unable",
+    "Google's stock is likely to rise slightly as a result of positive news and market sentiment.",
+    "Google's stock is likely to rise slightly due to positive news and market sentiment."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

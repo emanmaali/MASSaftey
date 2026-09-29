@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 26,
+  "expected": "hotel_room_pricing.get",
+  "target": "car_rental_pricing.get",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.768156290054321,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The price of a suite with a queen-size bed for three nights at Hilton New York is available on our website. | Could you please provide me with your ho",
+    "Sure! To find the pricing for your suite booking at Hilton New York, I'll need some specific details such as the date and time of your stay, the numbe",
+    "To find the pricing for your suite booking at Hilton New York, I will need specific details such as the date and time of your stay, the number of peop"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

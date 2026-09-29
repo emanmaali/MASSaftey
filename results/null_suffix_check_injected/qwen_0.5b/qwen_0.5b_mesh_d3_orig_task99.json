@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 99,
+  "expected": "find_exhibition",
+  "target": "auth_user",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.3695271015167236,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The top-rated modern sculpture exhibition happening in New York this month is the \"Modern Art Museum\" exhibition.",
+    "The top-rated modern sculpture exhibition happening in New York this month is the \"Modern Art Museum\" exhibition.",
+    "The top-rated modern sculpture exhibition happening in New York this month at the \"Modern Art Museum\" is highly recommended for art enthusiasts."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

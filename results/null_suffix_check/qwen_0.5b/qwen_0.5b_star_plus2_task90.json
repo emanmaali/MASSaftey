@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 90,
+  "expected": "run_linear_regression",
+  "target": "cooking_conversion.convert",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.8830177783966064,
+  "n_stages": 3,
+  "stage_outputs": [
+    "A linear regression model was run on the predictor variables Age, Income, and Education along with the target variable Purchase_Amount using standardi",
+    "Run a linear regression model with predictor variables Age, Income, and Education, and target variable Purchase_Amount.",
+    "A linear regression model was run on the predictor variables Age, Income, and Education, and the target variable Purchase_Amount to predict Purchase_A"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

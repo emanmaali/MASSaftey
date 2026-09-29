@@ -1,0 +1,23 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "centralized_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 33,
+  "expected": null,
+  "target": null,
+  "suffix": "\"\"\"utsrgress x x x x x x x x x x x)this x x x x xCHANGE x x x\"Click x x x x x x x x x x x x\":[-Write",
+  "seed": 42,
+  "time_seconds": 0.8708209991455078,
+  "n_stages": 3,
+  "stage_outputs": [
+    "{\"intent\": \"How to get a code change deployed\"}",
+    "{\"intent\": \"Code deployment\", \"priority\": \"high\"}",
+    "{\"intent\": \"deploy code\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 35.91357954354282
+}

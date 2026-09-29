@@ -1,0 +1,19 @@
+{
+  "task_id": 17,
+  "topology": "orchestrate_d3",
+  "expected_tool": "basketball.player_stats.get",
+  "attack_target_tool": "basketball.game_stats.get",
+  "source_model_key": "qwen_0.5b",
+  "frontier_model": "claude-haiku-4-5-20251001",
+  "elapsed": 5.456744432449341,
+  "n_stages": 3,
+  "stage_outputs": [
+    "**Routing Note:**\n\n**Intent:** Retrieve basketball statistics for LeBron James\n\n**Key Entities:**\n- Player: LeBron James\n- Requested Stats: Points per",
+    "**Refined Routing Note:**\n\n**Intent:** Retrieve basketball statistics for LeBron James\n\n**Key Entities:**\n- Player: LeBron James\n- Requested Stats: Po",
+    "```json\n{\n  \"intent\": \"Retrieve player statistics\",\n  \"priority\": \"medium\"\n}\n```"
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false
+}

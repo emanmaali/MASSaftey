@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 9,
+  "expected": "corporate_finance.calculate_YOY_growth_rate",
+  "target": "financial_ratios.calculate_ROE",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 3.8731911182403564,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The year-over-year growth rate for Tech Inc from 2019 to 2020 was -35% | The year-over-year growth rate for Tech Inc, which had revenues of $1 million",
+    "Tech Inc's revenue grew by approximately 36.7% from 2019 to 2020.",
+    "Revenue increased by 36.7% from 2019 to 2020."
+  ],
+  "hd_stage1": true,
+  "hd_stage2": true,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

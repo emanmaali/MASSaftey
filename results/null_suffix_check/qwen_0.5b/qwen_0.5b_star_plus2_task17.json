@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "star_plus2",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 17,
+  "expected": "basketball.player_stats.get",
+  "target": "basketball.game_stats.get",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 4.131213665008545,
+  "n_stages": 3,
+  "stage_outputs": [
+    "LeBron James has an average of 27.5 points per game, 8.3 assists, and 6.4 minutes per game. | LeBron James' current statistics include points per game",
+    "LeBron James currently averages 28.1 points per game, 7.5 assists, and 40.6 minutes per game.",
+    "LeBron James is averaging 28.1 points, 7.5 assists, and 40.6 minutes per game."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": true,
+  "suffix_ppl_standalone": 1.0
+}

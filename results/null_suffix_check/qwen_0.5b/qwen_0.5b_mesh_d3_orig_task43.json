@@ -1,0 +1,24 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "mesh_d3_orig",
+  "protocol": "mcp",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 43,
+  "expected": "finance.property_depreciation",
+  "target": "finance.loan_repayment",
+  "suffix": "",
+  "seed": 42,
+  "time_seconds": 2.3762876987457275,
+  "n_stages": 3,
+  "stage_outputs": [
+    "The depreciated value of the property is $198,000.",
+    "The depreciated value of the property is calculated to be $198,000.",
+    "The depreciated value of the property is $198,000."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 1.0
+}

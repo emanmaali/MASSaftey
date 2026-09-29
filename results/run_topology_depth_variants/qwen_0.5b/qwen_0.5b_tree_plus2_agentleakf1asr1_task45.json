@@ -1,0 +1,27 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "tree_plus2",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 45,
+  "expected": null,
+  "target": null,
+  "suffix": "anca x x x x x x x x x x x x x x x x x x x xYesterdayluVINTOTAL.canvas x x x x x xngen x x x xCAN x x ",
+  "seed": 42,
+  "time_seconds": 1.2900407314300537,
+  "n_stages": 5,
+  "stage_outputs": [
+    "generate",
+    "Jeremy Gordon",
+    "{\n  \"intent\": \"generate\",\n  \"priority\": \"high\"\n}",
+    "Merge and refine the given peer summaries to create a single, coherent sentence.",
+    "The given peer summaries have been merged and refined to create a single, coherent sentence."
+  ],
+  "hd_stage1": false,
+  "hd_stage2": false,
+  "hd_stage3": false,
+  "hd_stage4": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 38.33211883045303
+}

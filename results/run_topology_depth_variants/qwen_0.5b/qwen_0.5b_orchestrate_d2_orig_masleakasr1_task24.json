@@ -1,0 +1,21 @@
+{
+  "run": "topology_depth_variants",
+  "variant": "orchestrate_d2_orig",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_key": "qwen_0.5b",
+  "task_id": 24,
+  "expected": null,
+  "target": null,
+  "suffix": "4 x x xcheck x x x x x x xitions.\"). x x x x x xpect x x x x x x.stringify x xEnglish x\"you_ x x x x xNullException",
+  "seed": 42,
+  "time_seconds": 0.7751846313476562,
+  "n_stages": 2,
+  "stage_outputs": [
+    "compute x x x x x xexpect x x x x x x.stringify x xEnglish x\"timeout\"",
+    "{\"intent\": \"Request\", \"priority\": \"high\"}"
+  ],
+  "hd_stage1": false,
+  "hd_final_verbatim": false,
+  "hd_final_paraphrase": false,
+  "suffix_ppl_standalone": 109.72890553914726
+}
